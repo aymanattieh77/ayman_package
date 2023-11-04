@@ -1,0 +1,46 @@
+import 'package:ayman_package/theme/style.dart';
+import 'package:flutter/material.dart';
+
+final darkTheme = ThemeData.dark().copyWith(
+  appBarTheme: const AppBarTheme(toolbarHeight: 60, elevation: 0.0),
+  cardTheme: const CardTheme(),
+  bottomSheetTheme: const BottomSheetThemeData(),
+  bottomNavigationBarTheme: const BottomNavigationBarThemeData(),
+  bottomAppBarTheme: const BottomAppBarTheme(),
+  floatingActionButtonTheme: const FloatingActionButtonThemeData(),
+  dialogTheme: const DialogTheme(),
+  listTileTheme: const ListTileThemeData(),
+  elevatedButtonTheme: const ElevatedButtonThemeData(),
+  checkboxTheme: const CheckboxThemeData(),
+  expansionTileTheme: const ExpansionTileThemeData(),
+  dataTableTheme: const DataTableThemeData(),
+  datePickerTheme: const DatePickerThemeData(),
+  navigationBarTheme: const NavigationBarThemeData(),
+  menuTheme: const MenuBarThemeData(),
+  radioTheme: const RadioThemeData(),
+  snackBarTheme: const SnackBarThemeData(),
+  tabBarTheme: const TabBarTheme(),
+  textTheme: darkTextTheme,
+);
+
+final lightTheme = ThemeData.light().copyWith(
+  appBarTheme: const AppBarTheme(),
+  cardTheme: const CardTheme(),
+  bottomSheetTheme: const BottomSheetThemeData(),
+  bottomNavigationBarTheme: const BottomNavigationBarThemeData(),
+  bottomAppBarTheme: const BottomAppBarTheme(),
+  floatingActionButtonTheme: const FloatingActionButtonThemeData(),
+  dialogTheme: const DialogTheme(),
+  listTileTheme: const ListTileThemeData(),
+  elevatedButtonTheme: const ElevatedButtonThemeData(),
+  checkboxTheme: const CheckboxThemeData(),
+  expansionTileTheme: const ExpansionTileThemeData(),
+  dataTableTheme: const DataTableThemeData(),
+  datePickerTheme: const DatePickerThemeData(),
+  navigationBarTheme: const NavigationBarThemeData(),
+  menuTheme: const MenuBarThemeData(),
+  radioTheme: const RadioThemeData(),
+  snackBarTheme: const SnackBarThemeData(),
+  tabBarTheme: const TabBarTheme(),
+  textTheme: lightTextTheme,
+);
